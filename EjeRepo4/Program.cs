@@ -1,6 +1,5 @@
 ﻿//Programa con repositorio 4
 int nvlAmenaza = 0;
-string recomendacion = "";
 Console.WriteLine("Seleccione el incidente ocurrido \n" +
     "1)Malware \n" + //+2
     "2)Phishing \n" + //+3
@@ -853,7 +852,23 @@ if(persiste == "s" || persiste == "n" && usuarios > 0)
             break;
         default: Console.WriteLine("Opcion invalida en insidente"); break;
     }
-
+    if(nvlAmenaza < 4)
+    {
+        Console.WriteLine("Nivel de amenaza bajo \n" +
+            "se recomienda realizar un chequeo");
+    }else if(nvlAmenaza < 6)
+    {
+        Console.WriteLine("Nivel de amenaza medio \n" +
+            "se recomienda un llamar a un tecnico");
+    }else if(nvlAmenaza < 8)
+    {
+        Console.WriteLine("Nivel de amenaza alto \n" +
+            "se recomienda proteger los datos y dispositivos no afectados y realizar un analisis profundo del insidente");
+    }else
+    {
+        Console.WriteLine("Nivel de amenaza critico \n" +
+            "se recomienda detener todo, bloquear todo acceso y realizar un analisis profundo del insidente");
+    }
 }else
 {
     Console.WriteLine("Datos invalidos, rebise su respuesta en amenaza existencia y usuarios afectados");
