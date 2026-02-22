@@ -438,8 +438,422 @@ if(persiste == "s" || persiste == "n" && usuarios > 0)
                     break;
                 default: Console.WriteLine("Opcion invalida en dispisitivos afectados"); break;
                 }
-                break;
+            break;
+        case 3:
+            nvlAmenaza += 1;
+            switch(device)
+            {
+                case 1:
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 2:
+                    nvlAmenaza += 1;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 3:
+                    nvlAmenaza += 2;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 15)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 4:
+                    nvlAmenaza += 4;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 20)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 15)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                default: Console.WriteLine("Opcion invalida en dispisitivos afectados"); break;
             }
+            break;
+        case 4:
+            nvlAmenaza += 4;
+            switch(device)
+            {
+                case 1:
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 2:
+                    nvlAmenaza += 1;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 3:
+                    nvlAmenaza += 2;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 15)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                case 4:
+                    nvlAmenaza += 4;
+                    switch (datos)
+                    {
+                        case 1:
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 20)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 2:
+                            nvlAmenaza += 1;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 15)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 3:
+                            nvlAmenaza += 2;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 10)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        case 4:
+                            nvlAmenaza += 3;
+                            if (persiste == "s")
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            if (usuarios > 5)
+                            {
+                                nvlAmenaza += 1;
+                            }
+                            break;
+                        default: Console.WriteLine("Opcion invalida en datos afectados"); break;
+                    }
+                    break;
+                default: Console.WriteLine("Opcion invalida en dispisitivos afectados"); break;
+            }
+            break;
+        default: Console.WriteLine("Opcion invalida en insidente"); break;
+    }
+
 }else
 {
     Console.WriteLine("Datos invalidos, rebise su respuesta en amenaza existencia y usuarios afectados");
